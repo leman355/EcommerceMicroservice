@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lUm2WJ+0KTVdahMo/s3dabMKC2sBOM94TWfNBnyGBkbp7wB5qanU0Zyq/owKes+Bn0Va3gDq9xMUN+z4gpjt5w==",
+  "dgSpecHash": "WhASzsKjOnv57NSvUxhtXRHfacNFDM2uxybQNPMOr2oz+gWkFJaw3i2tWHUKWgvWfB5evOyG6Pt0AcwfT7ugng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.DataAccess\\CatalogService.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.DataAccess\\CatalogService.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

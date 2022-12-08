@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0pYv1rMKsN75iCOs1O652KaYE6EZhv2Y3U7n6LtbaTBibh6T80qbiiIDmrZLUGqqJ57sew7kPx4V/woSpxAqLg==",
+  "dgSpecHash": "s6vk3+9BYsybQVZd97lXn+64UCaddSpcutc7SOORtGFLcrS6N0YohkPDfclm76/RKywbLGbt4/l2qYBiW+yP4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Api\\CatalogService.Api.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Api\\CatalogService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",

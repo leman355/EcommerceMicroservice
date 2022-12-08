@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b/H+Bs8CZs0XT+U0GIV0ThE2ynGi+hJjtNgNx4D2Hbi9pkjuUJ57bnRUQ+aEW557PrGr6OBaCbcG07LpyCAo3A==",
+  "dgSpecHash": "QX0wKQxBUOP5GFy4qV6pxwxHEQ5OdfBIeNlgZg6qgVtfhxZhs+tjEGMlGagYz/3TshORJSH0BY3iL1I7TxrAOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

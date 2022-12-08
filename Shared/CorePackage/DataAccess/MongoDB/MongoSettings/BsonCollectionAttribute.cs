@@ -13,7 +13,7 @@ namespace CorePackage.DataAccess.MongoDB.MongoSettings
         {
             CollectionName = collectionName;
         }
+
         public string CollectionName { get; set; }
     }
-}
 }

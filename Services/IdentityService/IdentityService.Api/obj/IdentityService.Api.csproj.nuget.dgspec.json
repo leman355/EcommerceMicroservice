@@ -1,17 +1,337 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\eee\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj": {}
+    "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\eee\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj": {
+    "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\eee\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj",
         "projectName": "IdentityService.Api",
-        "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Api\\IdentityService.Api.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\eee\\Services\\IdentityService\\IdentityService.Api\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Business\\IdentityService.Business.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Business\\IdentityService.Business.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Business\\IdentityService.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Business\\IdentityService.Business.csproj",
+        "projectName": "IdentityService.Business",
+        "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Business\\IdentityService.Business.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.DataAccess\\IdentityService.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.DataAccess\\IdentityService.DataAccess.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.DataAccess\\IdentityService.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.DataAccess\\IdentityService.DataAccess.csproj",
+        "projectName": "IdentityService.DataAccess",
+        "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.DataAccess\\IdentityService.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj",
+        "projectName": "IdentityService.Entities",
+        "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\IdentityService.Entities.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\IdentityService\\IdentityService.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj",
+        "projectName": "CorePackage",
+        "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +360,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "MongoDB.Driver": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[2.18.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
             }
           },
           "imports": [
@@ -61,9 +385,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

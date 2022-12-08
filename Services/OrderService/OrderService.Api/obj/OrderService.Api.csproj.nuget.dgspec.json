@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\eee\\Services\\OrderService\\OrderService.Api\\OrderService.Api.csproj": {}
+    "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\OrderService\\OrderService.Api\\OrderService.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\eee\\Services\\OrderService\\OrderService.Api\\OrderService.Api.csproj": {
+    "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\OrderService\\OrderService.Api\\OrderService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\eee\\Services\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
         "projectName": "OrderService.Api",
-        "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\eee\\Services\\OrderService\\OrderService.Api\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\OrderService\\OrderService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

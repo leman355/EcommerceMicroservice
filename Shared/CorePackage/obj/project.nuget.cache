@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O9RfVuGHJDx77W0h6NVU3j+Ow58JrJJT1t5qiMwyuj1nPYXlzkAd5uT9b7EXnF8QRvfX2yk1yXdPBXKY1Cw+QA==",
+  "dgSpecHash": "7F+6Z7frqjGsKy3pLuP3zxdo/21TClS0kCn539VEt+9ZTnvLNdEXaUlSk0ogw4cJka3DU0Rcc61tATQehEBTVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\eee\\Shared\\CorePackage\\CorePackage.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

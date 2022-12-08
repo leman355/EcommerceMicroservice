@@ -1800,11 +1800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj",
       "projectName": "CatalogService.Business",
-      "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Business\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1821,11 +1821,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.DataAccess\\CatalogService.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.DataAccess\\CatalogService.DataAccess.csproj"
+            "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.DataAccess\\CatalogService.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.DataAccess\\CatalogService.DataAccess.csproj"
             },
-            "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Entities\\CatalogService.Entities.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Entities\\CatalogService.Entities.csproj"
+            "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Entities\\CatalogService.Entities.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Entities\\CatalogService.Entities.csproj"
             }
           }
         }

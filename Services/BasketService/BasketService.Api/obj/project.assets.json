@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\eee\\Services\\BasketService\\BasketService.Api\\BasketService.Api.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\BasketService\\BasketService.Api\\BasketService.Api.csproj",
       "projectName": "BasketService.Api",
-      "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\BasketService\\BasketService.Api\\BasketService.Api.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\BasketService\\BasketService.Api\\BasketService.Api.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\eee\\Services\\BasketService\\BasketService.Api\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\BasketService\\BasketService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

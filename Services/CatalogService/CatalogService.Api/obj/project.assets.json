@@ -2268,11 +2268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Api\\CatalogService.Api.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Api\\CatalogService.Api.csproj",
       "projectName": "CatalogService.Api",
-      "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Api\\CatalogService.Api.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Api\\CatalogService.Api.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Api\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2289,11 +2289,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj"
+            "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj"
             },
-            "C:\\Users\\user\\Desktop\\eee\\Shared\\CorePackage\\CorePackage.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\eee\\Shared\\CorePackage\\CorePackage.csproj"
+            "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj"
             }
           }
         }

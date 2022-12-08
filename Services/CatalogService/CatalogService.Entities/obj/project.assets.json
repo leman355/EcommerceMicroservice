@@ -1762,11 +1762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Entities\\CatalogService.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Entities\\CatalogService.Entities.csproj",
       "projectName": "CatalogService.Entities",
-      "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Entities\\CatalogService.Entities.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Entities\\CatalogService.Entities.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\eee\\Services\\CatalogService\\CatalogService.Entities\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1783,8 +1783,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\eee\\Shared\\CorePackage\\CorePackage.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\eee\\Shared\\CorePackage\\CorePackage.csproj"
+            "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Shared\\CorePackage\\CorePackage.csproj"
             }
           }
         }

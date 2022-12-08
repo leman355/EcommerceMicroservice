@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\eee\\Services\\NotificationService\\NotificationService.Api\\NotificationService.Api.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\NotificationService\\NotificationService.Api\\NotificationService.Api.csproj",
       "projectName": "NotificationService.Api",
-      "projectPath": "C:\\Users\\user\\Desktop\\eee\\Services\\NotificationService\\NotificationService.Api\\NotificationService.Api.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\NotificationService\\NotificationService.Api\\NotificationService.Api.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\eee\\Services\\NotificationService\\NotificationService.Api\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\NotificationService\\NotificationService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

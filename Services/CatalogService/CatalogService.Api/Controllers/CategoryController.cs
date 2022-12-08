@@ -1,9 +1,11 @@
 ﻿using CatalogService.Business.Abstract;
+using CatalogService.Entities.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CatalogService.Api.Controllers
 {
-    [Route("api/[conyroller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CategoryController : ControllerBase
     {
@@ -14,9 +16,24 @@ namespace CatalogService.Api.Controllers
             _categoryService = categoryService;
         }
 
-        public IActionResult Index()
+        [HttpPost]
+        [Route("add")]
+        public IActionResult AddCategory([FromBody]string categoryName)
         {
-            return View();
+            try
+            {
+                Category newCategory = new()
+                {
+                    CategoryName = categoryName
+                };
+                _categoryService.Add(newCategory);
+                return Ok();
+
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
         }
     }
 }
