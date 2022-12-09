@@ -1,5 +1,7 @@
 using CatalogService.Business.Abstract;
 using CatalogService.Business.Concrete;
+using CatalogService.Business.DependencyResolvers;
+using CatalogService.Business.Extensions;
 using CatalogService.DataAccess.Abstract;
 using CatalogService.DataAccess.Concrete.MongoDb;
 using CorePackage.DataAccess.MongoDB.MongoSettings;
@@ -23,8 +25,10 @@ builder.Services.AddScoped<IDatabaseSettings, DatabaseSettings>(sp =>
     return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
 });
 
-builder.Services.AddScoped<ICategoryDal, CategoryDal>();
-builder.Services.AddScoped<ICategoryService, CategoryManager>();
+
+builder.Services.AddMapperExtension();
+IServiceCollection serviceCollection = builder.Services.AddCustomDependencyResolver();
+
 
 var app = builder.Build();
 

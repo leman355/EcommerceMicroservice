@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CatalogService.Entities.Concrete
+namespace CatalogService.Entities.DTOs
 {
-    public class FeatureValue
+    public class FeatureValueDTO
     {
         public string Value { get; set; }
     }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QX0wKQxBUOP5GFy4qV6pxwxHEQ5OdfBIeNlgZg6qgVtfhxZhs+tjEGMlGagYz/3TshORJSH0BY3iL1I7TxrAOw==",
+  "dgSpecHash": "nBMxQc1CazpeqlwFzxZpp7zDWAmXDIJS9NL3IDqmgDIV/+liOsLsI04T/D/dPDMFbbNUV7mnAdykK28x6AKKFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\CatalogService\\CatalogService.Business\\CatalogService.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",

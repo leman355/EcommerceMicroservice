@@ -21,7 +21,7 @@ namespace CatalogService.Entities.Concrete
         public decimal Price { get; set; }
         public string Description { get; set; }
         [BsonRepresentation(BsonType.ObjectId)]
-        public string CategoryId { get; set; }
+        public string SubCategoryId { get; set; }
         public List<Feature> Features { get; set; }
     }
 }

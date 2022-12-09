@@ -1,7 +1,8 @@
 ﻿using CatalogService.Business.Abstract;
 using CatalogService.DataAccess.Abstract;
 using CatalogService.Entities.Concrete;
-
+using CatalogService.Entities.DTOs;
+using CorePackage.Helpers.Result.Abstract;
 
 namespace CatalogService.Business.Concrete
 {
@@ -12,10 +13,15 @@ namespace CatalogService.Business.Concrete
         {
             _categoryDal = categoryDal;
         }
-        
-        public void Add(Category category)
+
+        public IResult Add(CategoryDTO.CategoryAddDTO category)
         {
-            _categoryDal.Add(category);
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<List<CategoryDTO.CategoryListDTO>> GetAll()
+        {
+            throw new NotImplementedException();
         }
     }
 }

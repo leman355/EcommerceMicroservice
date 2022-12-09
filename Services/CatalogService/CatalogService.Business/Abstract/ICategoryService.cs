@@ -1,4 +1,5 @@
-﻿using CatalogService.Entities.Concrete;
+﻿using CorePackage.Helpers.Result.Abstract;
+using static CatalogService.Entities.DTOs.CategoryDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace CatalogService.Business.Abstract
 {
     public interface ICategoryService
     {
-        void Add(Category category);
+        IResult Add(CategoryAddDTO category);
+        IDataResult<List<CategoryListDTO>> GetAll();
     }
 }
