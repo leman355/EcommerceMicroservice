@@ -1,13 +1,15 @@
 ﻿using CatalogService.Business.Abstract;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using static CatalogService.Entities.DTOs.SubCategoryDTO;
 
 namespace CatalogService.Api.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class SubCategoryController : ControllerBase
     {
         private readonly ISubCategoryService _subCategoryService;
-
         public SubCategoryController(ISubCategoryService subCategoryService)
         {
             _subCategoryService = subCategoryService;
@@ -17,6 +19,7 @@ namespace CatalogService.Api.Controllers
         public IActionResult Get()
         {
             var subcategories = _subCategoryService.GetAllSubCategories();
+
             if (!subcategories.Success)
             {
                 return Ok(subcategories.Message);
@@ -24,7 +27,7 @@ namespace CatalogService.Api.Controllers
             return Ok(subcategories);
         }
 
-        [HttpGet("add")]
+        [HttpPost("add")]
         public IActionResult Add(SubCategoryAddDTO subCategory)
         {
             var newSubcategory = _subCategoryService.Add(subCategory);

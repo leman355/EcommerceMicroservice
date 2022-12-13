@@ -11,4 +11,5 @@ namespace CatalogService.Entities.DTOs
         public string FeatureKey { get; set; }
         public List<FeatureValueDTO> FeatureValues { get; set; }
     }
+
 }

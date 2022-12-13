@@ -1,4 +1,5 @@
-﻿using CorePackage.Helpers.Result.Abstract;
+﻿using CatalogService.Entities.DTOs;
+using CorePackage.Helpers.Result.Abstract;
 using static CatalogService.Entities.DTOs.CategoryDTO;
 using System;
 using System.Collections.Generic;

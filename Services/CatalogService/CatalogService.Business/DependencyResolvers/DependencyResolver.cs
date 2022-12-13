@@ -21,6 +21,9 @@ namespace CatalogService.Business.DependencyResolvers
             service.AddScoped<ISubCategoryDal, SubCategoryDal>();
             service.AddScoped<ISubCategoryService, SubCategoryManager>();
 
+            service.AddScoped<IProductDal, ProductDal>();
+            service.AddScoped<IProductService, ProductManager>();
+
             return service;
         }
     }

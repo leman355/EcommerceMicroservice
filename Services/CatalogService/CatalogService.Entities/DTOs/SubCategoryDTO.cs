@@ -10,7 +10,6 @@ namespace CatalogService.Entities.DTOs
     {
         public record SubCategoryAddDTO(string SubCategoryName);
         public record SubCategoryRemoveDTO(string Id);
-        public record SubCategoryListDTO(string SubCategoryName);
-
+        public record SubCategoryListDTO(string Id, string SubCategoryName);
     }
 }

@@ -23,5 +23,6 @@ namespace CatalogService.Entities.Concrete
         [BsonRepresentation(BsonType.ObjectId)]
         public string SubCategoryId { get; set; }
         public List<Feature> Features { get; set; }
+        public List<string> PhotoUrl { get; set; }
     }
 }

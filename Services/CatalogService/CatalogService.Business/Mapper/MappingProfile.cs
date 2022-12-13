@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
 using CatalogService.Entities.Concrete;
+using CatalogService.Entities.DTOs;
+using static CatalogService.Entities.DTOs.CategoryDTO;
+using static CatalogService.Entities.DTOs.SubCategoryDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static CatalogService.Entities.DTOs.CategoryDTO;
-using static CatalogService.Entities.DTOs.ProductDTO;
-using static CatalogService.Entities.DTOs.SubCategoryDTO;
 
 namespace CatalogService.Business.Mapper
 {
@@ -19,8 +19,12 @@ namespace CatalogService.Business.Mapper
             CreateMap<Category, CategoryRemoveDTO>().ReverseMap();
             CreateMap<Category, CategoryListDTO>().ReverseMap();
 
-            CreateMap<Product, ProductAddDTO>().ReverseMap();
-            CreateMap<Product, ProductGetByIdDTO>().ReverseMap();
+            CreateMap<Product, ProductDTO>().ReverseMap();
+            //CreateMap<Product, ProductGetByIdDTO>().ReverseMap();
+
+            CreateMap<Feature, FeatureDTO>().ReverseMap();
+            CreateMap<FeatureValue, FeatureValueDTO>().ReverseMap();
+
 
             CreateMap<SubCategory, SubCategoryAddDTO>().ReverseMap();
             CreateMap<SubCategory, SubCategoryListDTO>().ReverseMap();

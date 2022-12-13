@@ -16,7 +16,7 @@ namespace CatalogService.Entities.Concrete
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-        public string Name { get; set; }
+        public string CategoryName { get; set; }
         [BsonRepresentation(BsonType.ObjectId)]
         public List<string> SubCategoryId { get; set; }       //id string
     }
