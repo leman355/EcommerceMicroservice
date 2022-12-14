@@ -38,10 +38,10 @@ namespace CatalogService.Api.Controllers
             return Ok(addData.Message);
         }
 
-        [HttpGet("getbyid")]
-        public IActionResult GetProductsById(string Id)
+        [HttpGet("getbyid/{productid}")]
+        public IActionResult GetById(string productId)
         {
-            var result = _productService.GetHomeProducts();
+            var result = _productService.GetProductById(productId);
             if (!result.Success)
             {
                 return BadRequest(result.Message);

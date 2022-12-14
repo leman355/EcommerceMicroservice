@@ -51,17 +51,17 @@ namespace CatalogService.Business.Concrete
                 return new ErrorDataResult<List<ProductListDTO>>(e.Message);
             }
         }
-        public IDataResult<List<ProductListDTO>> GetProductsById(string Id)
+        public IDataResult<ProductGetByIdDTO> GetProductById(string id)
         {
             try
             {
-                var data = _productDal.GetAll().Where(x=>x.Id==Id);
-                var result = _mapper.Map<List<ProductListDTO>>(data);
-                return new SuccessDataResult<List<ProductListDTO>>(result, "Data Id-sine geldi.");
+                var data = _productDal.Get(x => x.Id == id);
+                var result = _mapper.Map<ProductGetByIdDTO>(data);
+                return new SuccessDataResult<ProductGetByIdDTO>(result);
             }
             catch (Exception e)
             {
-                return new ErrorDataResult<List<ProductListDTO>>(e.Message);
+                return new ErrorDataResult<ProductGetByIdDTO>(e.Message);
             }
         }
     }
