@@ -12,5 +12,6 @@ namespace CatalogService.Business.Abstract
     {
         IResult AddProduct(ProductDTO productAddDTO);
         IDataResult<List<ProductListDTO>> GetHomeProducts();
+        IDataResult<List<ProductListDTO>> GetProductsById(string Id);
     }
 }

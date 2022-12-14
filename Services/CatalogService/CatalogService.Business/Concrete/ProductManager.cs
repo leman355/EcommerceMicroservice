@@ -11,7 +11,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static CatalogService.Entities.DTOs.ProductDTO;
 
 namespace CatalogService.Business.Concrete
 {
@@ -46,6 +45,19 @@ namespace CatalogService.Business.Concrete
                 var data = _productDal.GetAll();
                 var result = _mapper.Map<List<ProductListDTO>>(data);
                 return new SuccessDataResult<List<ProductListDTO>>(result, "Data geldi.");
+            }
+            catch (Exception e)
+            {
+                return new ErrorDataResult<List<ProductListDTO>>(e.Message);
+            }
+        }
+        public IDataResult<List<ProductListDTO>> GetProductsById(string Id)
+        {
+            try
+            {
+                var data = _productDal.GetAll().Where(x=>x.Id==Id);
+                var result = _mapper.Map<List<ProductListDTO>>(data);
+                return new SuccessDataResult<List<ProductListDTO>>(result, "Data Id-sine geldi.");
             }
             catch (Exception e)
             {

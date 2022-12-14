@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CatalogService.Entities.DTOs
 {
-    // CategoryName : "Ehmed"   pascal case olmamalidi
-    // category_name : "Ehmed"   snake case olmalidi
+    // CategoryName : "Value"   pascal case olmamalidi
+    // category_name : "Value"  snake case olmalidi
     public class CategoryDTO
     {
         public record CategoryAddDTO(string CategoryName, List<string> SubCategoryId);

@@ -57,3 +57,4 @@ C:\Users\user\Desktop\EcommerceMicroservice\Services\CatalogService\CatalogServi
 C:\Users\user\Desktop\EcommerceMicroservice\Services\CatalogService\CatalogService.Api\obj\Debug\net7.0\CatalogService.Api.pdb
 C:\Users\user\Desktop\EcommerceMicroservice\Services\CatalogService\CatalogService.Api\obj\Debug\net7.0\CatalogService.Api.genruntimeconfig.cache
 C:\Users\user\Desktop\EcommerceMicroservice\Services\CatalogService\CatalogService.Api\obj\Debug\net7.0\ref\CatalogService.Api.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\CatalogService\CatalogService.Api\bin\Debug\net7.0\AutoMapper.dll

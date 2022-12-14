@@ -37,5 +37,16 @@ namespace CatalogService.Api.Controllers
             }
             return Ok(addData.Message);
         }
+
+        [HttpGet("getbyid")]
+        public IActionResult GetProductsById(string Id)
+        {
+            var result = _productService.GetHomeProducts();
+            if (!result.Success)
+            {
+                return BadRequest(result.Message);
+            }
+            return Ok(result);
+        }
     }
 }
