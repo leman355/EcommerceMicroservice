@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\bin\Debug\net7.0\BasketService.Entities.deps.json
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\bin\Debug\net7.0\BasketService.Entities.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\bin\Debug\net7.0\BasketService.Entities.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\bin\Debug\net7.0\CorePackage.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\bin\Debug\net7.0\CorePackage.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\BasketService.Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\BasketService.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\BasketService.Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\BasketService.Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\BasketService.Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\BasketService.Entities.csproj.CopyComplete
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\BasketService.Entities.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\refint\BasketService.Entities.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\BasketService.Entities.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Entities\obj\Debug\net7.0\ref\BasketService.Entities.dll

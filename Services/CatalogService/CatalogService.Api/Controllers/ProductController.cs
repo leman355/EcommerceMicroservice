@@ -38,7 +38,7 @@ namespace CatalogService.Api.Controllers
             return Ok(addData.Message);
         }
 
-        [HttpGet("getbyid/{productid}")]
+        [HttpGet("getbyid/{productId}")]
         public IActionResult GetById(string productId)
         {
             var result = _productService.GetProductById(productId);

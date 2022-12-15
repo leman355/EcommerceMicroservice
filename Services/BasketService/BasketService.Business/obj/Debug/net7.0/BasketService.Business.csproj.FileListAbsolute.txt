@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\BasketService.Business.deps.json
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\BasketService.Business.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\BasketService.Business.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.AssemblyInfo.cs
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\refint\BasketService.Business.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\ref\BasketService.Business.dll

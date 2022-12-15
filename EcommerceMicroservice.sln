@@ -37,11 +37,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService.Entities", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Api", "Services\IdentityService\IdentityService.Api\IdentityService.Api.csproj", "{A9809C9A-5EA1-42B6-97FC-458469BC2B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Business", "Services\IdentityService\IdentityService.Business\IdentityService.Business.csproj", "{9493A456-75F3-4098-8C6C-BCE369602132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Business", "Services\IdentityService\IdentityService.Business\IdentityService.Business.csproj", "{9493A456-75F3-4098-8C6C-BCE369602132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.DataAccess", "Services\IdentityService\IdentityService.DataAccess\IdentityService.DataAccess.csproj", "{233D7990-E423-4AF3-A272-3D4C16E00E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.DataAccess", "Services\IdentityService\IdentityService.DataAccess\IdentityService.DataAccess.csproj", "{233D7990-E423-4AF3-A272-3D4C16E00E23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Entities", "Services\IdentityService\IdentityService.Entities\IdentityService.Entities.csproj", "{206CE61C-CB5A-4C60-B50A-4AA485C00EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Entities", "Services\IdentityService\IdentityService.Entities\IdentityService.Entities.csproj", "{206CE61C-CB5A-4C60-B50A-4AA485C00EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketService.DataAccess", "Services\BasketService\BasketService.DataAccess\BasketService.DataAccess.csproj", "{DBF2694C-9864-4EF1-A49A-A8C0C583ACD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketService.Entities", "Services\BasketService\BasketService.Entities\BasketService.Entities.csproj", "{0B929842-6981-4B36-A161-37E8F14C809B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketService.Business", "Services\BasketService\BasketService.Business\BasketService.Business.csproj", "{56E5E902-071B-4044-84B0-3873B612DE73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +103,18 @@ Global
 		{206CE61C-CB5A-4C60-B50A-4AA485C00EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{206CE61C-CB5A-4C60-B50A-4AA485C00EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{206CE61C-CB5A-4C60-B50A-4AA485C00EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF2694C-9864-4EF1-A49A-A8C0C583ACD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF2694C-9864-4EF1-A49A-A8C0C583ACD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF2694C-9864-4EF1-A49A-A8C0C583ACD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF2694C-9864-4EF1-A49A-A8C0C583ACD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B929842-6981-4B36-A161-37E8F14C809B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B929842-6981-4B36-A161-37E8F14C809B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B929842-6981-4B36-A161-37E8F14C809B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B929842-6981-4B36-A161-37E8F14C809B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E5E902-071B-4044-84B0-3873B612DE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E5E902-071B-4044-84B0-3873B612DE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E5E902-071B-4044-84B0-3873B612DE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E5E902-071B-4044-84B0-3873B612DE73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +137,9 @@ Global
 		{9493A456-75F3-4098-8C6C-BCE369602132} = {9DA92D90-9592-429A-BECA-411F59D00F20}
 		{233D7990-E423-4AF3-A272-3D4C16E00E23} = {9DA92D90-9592-429A-BECA-411F59D00F20}
 		{206CE61C-CB5A-4C60-B50A-4AA485C00EB2} = {9DA92D90-9592-429A-BECA-411F59D00F20}
+		{DBF2694C-9864-4EF1-A49A-A8C0C583ACD5} = {670E714C-1319-44A7-8B6E-4D81688A7E9D}
+		{0B929842-6981-4B36-A161-37E8F14C809B} = {670E714C-1319-44A7-8B6E-4D81688A7E9D}
+		{56E5E902-071B-4044-84B0-3873B612DE73} = {670E714C-1319-44A7-8B6E-4D81688A7E9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1CA1AEE-2BF0-4882-81F3-CF6A85849148}

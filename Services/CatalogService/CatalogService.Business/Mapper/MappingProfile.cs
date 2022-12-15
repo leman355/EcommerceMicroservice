@@ -25,7 +25,6 @@ namespace CatalogService.Business.Mapper
             CreateMap<Feature, FeatureDTO>().ReverseMap();
             CreateMap<FeatureValue, FeatureValueDTO>().ReverseMap();
 
-
             CreateMap<SubCategory, SubCategoryAddDTO>().ReverseMap();
             CreateMap<SubCategory, SubCategoryListDTO>().ReverseMap();
         }
