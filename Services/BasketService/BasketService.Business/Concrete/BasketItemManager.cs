@@ -4,6 +4,7 @@ using BasketService.Entities.Concrete;
 using BasketService.Entities.DTOs;
 using CorePackage.Helpers.Result.Abstract;
 using CorePackage.Helpers.Result.Concrete.ErrorResults;
+using CorePackage.Helpers.Result.Concrete.SuccessResults;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,15 @@ namespace BasketService.Business.Concrete
             try
             {
                 var result = _basketService.GetBasketByUserId(userId);
+                if (result.Data == null)
+                {
+                    BasketAddDTO basketAddDTO = new()
+                    {
+                        UserId = userId
+                    };
+                    _basketService.AddBasket(basketAddDTO);
+                }
+                result = _basketService.GetBasketByUserId(userId);
                 foreach (var item in basketItems)
                 {
                     BasketItem basketItem = new()
@@ -36,9 +46,11 @@ namespace BasketService.Business.Concrete
                         Price = item.Price,
                         ProductName = item.ProductName,
                         Quantity = item.Quantity,
-                        BasketId = item.BasketId,
+                        BasketId = result.Data.Id,
                     };
+                    _basketItemDal.Add(basketItem);
                 }
+                return new SuccessDataResult<List<BasketItemDTO>>(basketItems);
 
             }
             catch (Exception e)

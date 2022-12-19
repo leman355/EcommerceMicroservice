@@ -10,3 +10,10 @@ C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService
 C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\refint\BasketService.Business.dll
 C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.pdb
 C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\ref\BasketService.Business.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\BasketService.DataAccess.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\BasketService.Entities.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\CorePackage.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\CorePackage.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\BasketService.DataAccess.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\bin\Debug\net7.0\BasketService.Entities.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Business\obj\Debug\net7.0\BasketService.Business.csproj.CopyComplete

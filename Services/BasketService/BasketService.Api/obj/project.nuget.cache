@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n22zH5m+2yVEi5kRHPWIw1D4/9oimma0vB8teu5E/hG2brcHSEvRqXojktawVWli6trPKh7zL0v3ivHrRRd2bg==",
+  "dgSpecHash": "hChXtKlrxv0c/L5KOOIlhle9M7KmhR343WenkechF6pOL+dV0HGzZUe1tmtBICZ1ZNsJvqVvimDkES2R4cjQsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\BasketService\\BasketService.Api\\BasketService.Api.csproj",
   "expectedPackageFiles": [

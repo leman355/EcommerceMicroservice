@@ -1,4 +1,5 @@
-﻿using BasketService.Entities.DTOs;
+﻿using BasketService.Entities.Concrete;
+using BasketService.Entities.DTOs;
 using CorePackage.Helpers.Result.Abstract;
 using System;
 using System.Collections.Generic;

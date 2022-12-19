@@ -1380,6 +1380,21 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
+      "BasketService.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BasketService.DataAccess": "1.0.0",
+          "BasketService.Entities": "1.0.0",
+          "CorePackage": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BasketService.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasketService.Business.dll": {}
+        }
+      },
       "BasketService.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -4258,6 +4273,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "BasketService.Business/1.0.0": {
+      "type": "project",
+      "path": "../BasketService.Business/BasketService.Business.csproj",
+      "msbuildProject": "../BasketService.Business/BasketService.Business.csproj"
+    },
     "BasketService.DataAccess/1.0.0": {
       "type": "project",
       "path": "../BasketService.DataAccess/BasketService.DataAccess.csproj",
@@ -4276,6 +4296,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BasketService.Business >= 1.0.0",
       "BasketService.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.1",
@@ -4309,6 +4330,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\BasketService\\BasketService.Business\\BasketService.Business.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\BasketService\\BasketService.Business\\BasketService.Business.csproj"
+            },
             "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\BasketService\\BasketService.DataAccess\\BasketService.DataAccess.csproj": {
               "projectPath": "C:\\Users\\user\\Desktop\\EcommerceMicroservice\\Services\\BasketService\\BasketService.DataAccess\\BasketService.DataAccess.csproj"
             }

@@ -25,7 +25,6 @@ namespace BasketService.DataAccess.Concrete.EntityFramework
                 {
                     BasketItemDTO basketItemDTO = new()
                     {
-                        BasketId = item.Id,
                         Price = item.Price,
                         ProductId = item.ProductId,
                         ProductName = item.ProductName,
@@ -39,6 +38,7 @@ namespace BasketService.DataAccess.Concrete.EntityFramework
                     UserId = findUserBasket.UserId,
                     BasketItems = basketItems
                 };
+
                 return new SuccessDataResult<BasketListDTO>(basket);
             }
         }

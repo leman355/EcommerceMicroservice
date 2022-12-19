@@ -1,3 +1,6 @@
+using BasketService.Business.Abstract;
+using BasketService.Business.Concrete;
+using BasketService.DataAccess.Abstract;
 using BasketService.DataAccess.Concrete.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +13,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<BasketDbContext>();
+
+
+builder.Services.AddScoped<IBasketDal, BasketDal>();
+builder.Services.AddScoped<IBasketService, BasketManager>();
+
+
+builder.Services.AddScoped<IBasketItemDal, BasketItemDal>();
+builder.Services.AddScoped<IBasketItemService, BasketItemManager>();
 
 var app = builder.Build();
 
