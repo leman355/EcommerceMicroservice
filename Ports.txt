@@ -1,0 +1,9 @@
+Services
+	- BasketService:        https://localhost:5001
+	- CatalogService:       https://localhost:5002	
+	- IdentityService:      https://localhost:5003	
+	- NotificationService:  https://localhost:5004	
+	- OrderService:         https://localhost:5005
+
+Gateway
+	- ApiGateway:           https://localhost:5000

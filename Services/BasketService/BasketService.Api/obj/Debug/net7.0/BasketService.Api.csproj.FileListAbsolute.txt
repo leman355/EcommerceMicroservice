@@ -125,3 +125,5 @@ C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService
 C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Api\bin\Debug\net7.0\BasketService.Entities.pdb
 C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Api\bin\Debug\net7.0\CorePackage.pdb
 C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Api\bin\Debug\net7.0\libman.json
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Api\bin\Debug\net7.0\BasketService.Business.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\BasketService\BasketService.Api\bin\Debug\net7.0\BasketService.Business.pdb

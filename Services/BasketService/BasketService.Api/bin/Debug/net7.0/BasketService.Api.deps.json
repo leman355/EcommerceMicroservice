@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "BasketService.Api/1.0.0": {
         "dependencies": {
+          "BasketService.Business": "1.0.0",
           "BasketService.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.1",
           "Microsoft.EntityFrameworkCore.Design": "7.0.1",
@@ -773,6 +774,16 @@
           }
         }
       },
+      "BasketService.Business/1.0.0": {
+        "dependencies": {
+          "BasketService.DataAccess": "1.0.0",
+          "BasketService.Entities": "1.0.0",
+          "CorePackage": "1.0.0"
+        },
+        "runtime": {
+          "BasketService.Business.dll": {}
+        }
+      },
       "BasketService.DataAccess/1.0.0": {
         "dependencies": {
           "BasketService.Entities": "1.0.0",
@@ -1383,6 +1394,11 @@
       "sha512": "sha512-jPao/LdUNLUz8rn3H1D8W7wQbZsRZM0iayvWI4xGejJg3XJHT56gcmYdgmCGPdJF1UEBqUjucCRrFB+4HbJsbw==",
       "path": "zstdsharp.port/0.6.2",
       "hashPath": "zstdsharp.port.0.6.2.nupkg.sha512"
+    },
+    "BasketService.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "BasketService.DataAccess/1.0.0": {
       "type": "project",
