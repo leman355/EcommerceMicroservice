@@ -19,7 +19,7 @@ namespace OrderService.Api.Controllers
             _orderItemService = orderItemService;
         }
 
-        [HttpPost("addtOrder")]
+        [HttpPost("addOrder")]
         public IActionResult AddOrder(List<OrderItemDTO> orderItem)
         {
             var _bearer_token = Request.Headers[HeaderNames.Authorization].ToString().Replace("Bearer ", "");

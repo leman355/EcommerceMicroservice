@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\bin\Debug\net7.0\OrderService.Entities.deps.json
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\bin\Debug\net7.0\OrderService.Entities.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\bin\Debug\net7.0\OrderService.Entities.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\bin\Debug\net7.0\CorePackage.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\bin\Debug\net7.0\CorePackage.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\OrderService.Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\OrderService.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\OrderService.Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\OrderService.Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\OrderService.Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\OrderService.Entities.csproj.CopyComplete
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\OrderService.Entities.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\refint\OrderService.Entities.dll
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\OrderService.Entities.pdb
+C:\Users\user\Desktop\EcommerceMicroservice\Services\OrderService\OrderService.Entities\obj\Debug\net7.0\ref\OrderService.Entities.dll
